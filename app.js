@@ -59,7 +59,7 @@ app.get("/", (req, res) => {
       data = "No chat history";
     }
 
-    const usernameDisplay = username ? `<h2>Welcome, ${username}!</h2>` : "";
+    const usernameDisplay = username ? `<h2> ${username}!</h2>` : "";
 
     res.send(`
       <html>
